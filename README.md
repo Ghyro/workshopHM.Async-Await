@@ -4,7 +4,7 @@
 It is necessary to implement the library and the console program using it to create a local copy of the site (“analogue” of the [wget](https://ru.wikipedia.org/wiki/Wget) program).
 Working with the program looks like this: the user specifies the starting point (URL) and the folder where to save, and the program goes through all available links and recursively downloads the site (s).
 
-##### Program / Library Options:
+#### Program / Library Options:
 
  1. Restriction on the depth of link analysis (i.e. if you downloaded the page that the user specified, it is level 0, all pages to which will enter links from it, it is level 1, etc.)
   
@@ -12,7 +12,7 @@ Working with the program looks like this: the user specifies the starting point 
   
  3. Restriction on the “expansion” of downloaded resources (you can set a list, for example: gif, jpeg, jpg, pdf)
   
-##### Recommendations for implementation
+#### Recommendations for implementation
 As a basis, you can take the following libraries:
  1. Work with HTTP 
    - System.Net.Http.HttpClient - recommended option
@@ -28,6 +28,6 @@ As a basis, you can take the following libraries:
 
 1. The project works with HTTP and HAP - it's an HTML parser written in C# to read/write DOM and supports plain XPATH or XSLT.
 
-2. Was used asynchronous programming with async/await.
-
 ![Screenshot](screenshot.png)
+
+2. Was used asynchronous programming with async/await.
