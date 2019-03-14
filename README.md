@@ -23,3 +23,11 @@ As a basis, you can take the following libraries:
 
  2. Working with HTML
    - You can use one of the libraries listed [here](https://ru.stackoverflow.com/questions/420354/%D0%9A%D0%B0%D0%BA-%D1%80%D0%B0%D1%81%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D1%82%D1%8C-html-%D0%B2-net/450586).
+
+## Short description
+
+1. The project works with HTTP and HAP - it's an HTML parser written in C# to read/write DOM and supports plain XPATH or XSLT.
+
+2. Was used asynchronous programming with async/await.
+
+![Screenshot](screenshot.png)
