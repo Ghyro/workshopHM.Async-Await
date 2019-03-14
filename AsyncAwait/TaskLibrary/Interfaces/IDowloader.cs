@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TaskLibrary
+namespace TaskLibrary.Interfaces
 {
-    public class Class1
+    public interface IDowloader
     {
+        Task LoadUrl();
     }
 }
