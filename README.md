@@ -1,7 +1,7 @@
-# workshopHM.Async-Await
+# workshopHW.Async-Await
 
 ## Task
-It is necessary to implement the library and the console program using it to create a local copy of the site (ìanalogueî of the [wget](https://ru.wikipedia.org/wiki/Wget) program).
+It is necessary to implement the library and the console program using it to create a local copy of the site (‚Äúanalogue‚Äù of the [wget](https://ru.wikipedia.org/wiki/Wget) program).
 Working with the program looks like this: the user specifies the starting point (URL) and the folder where to save, and the program goes through all available links and recursively downloads the site (s).
 
 #### Program / Library Options:
@@ -10,7 +10,7 @@ Working with the program looks like this: the user specifies the starting point 
   
  2. Restriction on switching to other domains (no restrictions / only within the current domain / not higher than the path in the source URL)
   
- 3. Restriction on the ìexpansionî of downloaded resources (you can set a list, for example: gif, jpeg, jpg, pdf)
+ 3. Restriction on the ‚Äúexpansion‚Äù of downloaded resources (you can set a list, for example: gif, jpeg, jpg, pdf)
   
 #### Recommendations for implementation
 As a basis, you can take the following libraries:
