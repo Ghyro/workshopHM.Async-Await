@@ -37,8 +37,6 @@ namespace TaskConsole
             downloader.LoadUrl();
 
             Console.ReadLine();
-
-            Console.ReadLine();
         }
     }
 }
